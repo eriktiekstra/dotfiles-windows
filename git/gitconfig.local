@@ -2,4 +2,4 @@
 	email = erik.tiekstra@arbetsformedlingen.com
 	name = Erik Tiekstra
 [credential]
-        helper = GIT_CREDENTIAL_HELPER
+        helper = cache
