@@ -1,0 +1,24 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.idea
+.vscode
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+node_modules
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# SSH
+ssh/*
+!ssh/config

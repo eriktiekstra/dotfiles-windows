@@ -1,0 +1,10 @@
+Host bitbucket.ams.se
+	Hostname bitbucket.ams.se
+	IdentityFile ~/.ssh/id_rsa-af
+
+Host *
+	ServerAliveInterval 30
+	ServerAliveCountMax 4
+	PreferredAuthentications publickey
+	#PreferredAuthentications password
+	IdentitiesOnly yes

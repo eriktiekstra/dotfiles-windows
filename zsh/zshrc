@@ -1,0 +1,38 @@
+# shortcut to this dotfiles path is $ZSH
+export ZSH=~/.dotfiles
+
+# Set name of the theme to load. Optionally, if you set this to "random"
+# it'll load a random theme each time that oh-my-zsh is loaded.
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+ZSH_THEME="kolo"
+
+# your project folder that we can `c [tab]` to
+export PROJECTS=~/sites
+
+# Stash your environment variables in ~/.localrc. This means they'll stay out
+# of your main dotfiles repository (which may be public, like this one), but
+# you'll have access to them in your scripts.
+if [[ -a ~/.localrc ]]
+then
+  source ~/.localrc
+fi
+
+# Aliases
+if [[ -a $ZSH/zsh/aliases.zsh ]]
+then
+  source $ZSH/zsh/aliases.zsh
+fi
+
+# Completion
+if [[ -a $ZSH/zsh/completion.zsh ]]
+then
+  source $ZSH/zsh/completion.zsh
+fi
+
+# initialize autocomplete here, otherwise functions won't be loaded
+autoload -U compinit
+compinit
+
+# NVM Symlink to current installation
+export NVM_SYMLINK_CURRENT=true
+# nvm use default
