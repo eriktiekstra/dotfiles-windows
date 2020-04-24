@@ -1,2 +1,2 @@
 git pull
-echo "✔ dotfiles are up to date"
+echo "✔ Dotfiles are up to date!"

@@ -1,6 +1,6 @@
-echo "apt update..."
+echo "Running apt update..."
 sudo apt -qq update
-echo "✔ update done!"
+echo "✔ Update done!"
 
-sudo apt -qq install zsh git
-echo "✔ base packages are installed"
+sudo apt -qq install zsh git git-flow
+echo "✔ Git and ZSH packages are installed!"

@@ -1,5 +1,5 @@
 ln -sf $(pwd)/bash/bashrc ~/.bashrc
-echo "✔ zsh as default shell"
+echo "✔ ZSH set as default shell!"
 
 ln -sf $(pwd)/zsh/zshrc ~/.zshrc
-echo "✔ .zshrc symlinked"
+echo "✔ ZSH file symlinked!"
