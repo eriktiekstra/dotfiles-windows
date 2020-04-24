@@ -10,16 +10,16 @@ Different configuration files are located in this repository. Running `install.s
 
 ### Dependencies needed before running this script
 
-- Windows 10 with WSL activated and Ubuntu installed.
-- [Hyper](https://hyper.is/) (Terminal Emulator).
-- [VSCode](https://code.visualstudio.com/).
+- Windows 10 with WSL activated and Ubuntu installed
+- [Hyper](https://hyper.is/) (Terminal Emulator)
+- [VS Code](https://code.visualstudio.com/)
 
 ### Installation
 
 Just run `install.sh` to install the development environment and symlink all dotfiles. Type your password if asked for it.
 
 ```
-$ git clone https://github.com/eriktiekstra/dotfiles-win.git ~/.dotfiles
+$ git clone https://github.com/eriktiekstra/dotfiles-windows.git ~/.dotfiles
 $ sudo ~/.dotfiles/install.sh
 ```
 
@@ -28,7 +28,11 @@ $ sudo ~/.dotfiles/install.sh
 - Copy the contents of [hyper.js](./hyper/hyper.js) into the `.hyper.js` file in the installation folder. This folder is located under `~/Appdata/Roaming/Hyper`.
 - Restart Hyper
 
-### SSH
+#### VS Code configuration
+
+Configuration for VS Code is loaded from a GitHub Gist using the Settings Sync extension.
+
+#### SSH configuration
 
 To activate SSH usage, SSH keys needs to be created and configured. There is an alias (`ssh-create-key`) which can be used. It currently accepts 1 parameter which is the email address. RSA is used by default.
 
@@ -38,11 +42,14 @@ When changes are made locally, make sure to push these changes to the remote rep
 
 ## Other applications
 
-- Google Chrome
-- Brave Browser
-- Firefox Developer Edition
-- Slack
-- Postman
-- Toggl
-- Lastpass
-- 
+- [Google Chrome](https://www.google.com/chrome/)
+- [Brave Browser](https://brave.com/)
+- [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
+- [Slack](https://slack.com/intl/en-se/downloads)
+- [Postman](https://www.postman.com/)
+- [Toggl](https://toggl.com/toggl-desktop/)
+- [Lastpass](https://lastpass.com/misc_download2.php)
+- [Franz](https://meetfranz.com/)
+- [Zeplin](https://zeplin.io/)
+- [Keybase](https://keybase.io/)
+- [Spotify](https://www.spotify.com/download)
