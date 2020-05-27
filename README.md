@@ -11,6 +11,7 @@ Different configuration files are located in this repository. Running `install.s
 ### Dependencies needed before running this script
 
 - Windows 10 with WSL activated and Ubuntu installed
+- [Git for Windows](https://gitforwindows.org/)
 - [Hyper](https://hyper.is/) (Terminal Emulator)
 - [VS Code](https://code.visualstudio.com/)
 
@@ -20,7 +21,7 @@ Just run `install.sh` to install the development environment and symlink all dot
 
 ```
 $ git clone https://github.com/eriktiekstra/dotfiles-windows.git ~/.dotfiles
-$ sudo ~/.dotfiles/install.sh
+$ sudo sh ~/.dotfiles/install.sh
 ```
 
 ### Post installation
