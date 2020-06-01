@@ -1,0 +1,5 @@
+[user]
+	email = erik.tiekstra@arbetsformedlingen.com
+	name = Erik Tiekstra
+[credential]
+        helper = cache
