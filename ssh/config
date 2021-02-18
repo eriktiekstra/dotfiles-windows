@@ -1,6 +1,11 @@
-Host bitbucket.ams.se
-	Hostname bitbucket.ams.se
+Host bitbucket.arbetsformedlingen.se
+	Hostname bitbucket.arbetsformedlingen.se
 	IdentityFile ~/.ssh/id_rsa-af
+
+Host gitlab.com
+	PubkeyAuthentication yes
+	IdentityFile ~/.ssh/id_rsa-gitlab
+	User eriktiekstra
 
 Host *
 	ServerAliveInterval 30

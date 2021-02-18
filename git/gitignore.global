@@ -16,9 +16,10 @@ node_modules
 
 # Logs and databases
 *.log
-*.sql
-*.sqlite
 
 # SSH
 ssh/*
 !ssh/config
+
+# Environment variables
+.env
