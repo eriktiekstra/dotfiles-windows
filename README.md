@@ -11,23 +11,31 @@ Different configuration files are located in this repository. Running `install.s
 ### Dependencies needed before running this script
 
 - Windows 10 with WSL activated and Ubuntu installed
-- [Git for Windows](https://gitforwindows.org/)
-- [Hyper](https://hyper.is/) (Terminal Emulator)
+- [Git for Windows](https://gitforwindows.org/) ?
+- ~~[Hyper](https://hyper.is/) (Terminal Emulator)~~
+- [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/get-started)
+  
+  Some settings needs to be set, it would be easiest to do this before installing. 
+  - Default profile should be set to the guid of the Ubuntu profile `"defaultProfile": "{ubuntu-guid}",`
+  - Set copy on select to true `"copyOnSelect": true,`
+  - Starting directory should be set to the Ubuntu user profile, f.e. `"startingDirectory": "\\\\wsl$\\Ubuntu-20.04\\home\\username"`
 - [VS Code](https://code.visualstudio.com/)
 
 ### Installation
 
 Just run `install.sh` to install the development environment and symlink all dotfiles. Type your password if asked for it.
 
-```
+```zsh
 $ git clone https://github.com/eriktiekstra/dotfiles-windows.git ~/.dotfiles
-$ sudo sh ~/.dotfiles/install.sh
+$ cd ~/.dotfiles && sh /install.sh
 ```
 
 ### Post installation
 
-- Copy the contents of [hyper.js](./hyper/hyper.js) into the `.hyper.js` file in the installation folder. This folder is located under `~/Appdata/Roaming/Hyper`.
-- Restart Hyper
+#### ~~Hyper~~
+
+- ~~Copy the contents of [hyper.js](./hyper/hyper.js) into the `.hyper.js` file in the installation folder. This folder is located under `~/Appdata/Roaming/Hyper`.~~
+- ~~Restart Hyper~~
 
 #### VS Code configuration
 

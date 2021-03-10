@@ -1,6 +1,6 @@
-Host bitbucket.ams.se
-	Hostname bitbucket.ams.se
-	IdentityFile ~/.ssh/id_rsa-af
+Host bitbucket.arbetformedlingen.se
+	Hostname bitbucket.arbetsformedlingen.se
+	IdentityFile ~/.ssh/id_rsa-bitbucket
 
 Host *
 	ServerAliveInterval 30
