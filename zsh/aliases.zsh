@@ -9,6 +9,22 @@ alias home='cd ~'
 alias sites='cd ~/Sites'
 alias dotfiles='cd ~/.dotfiles'
 
+af() {
+	AF_SOURCE=/etc/resolv.conf-af
+	TARGET=/etc/resolv.conf
+
+	sudo rm ${TARGET}
+	sudo cp ${AF_SOURCE} ${TARGET}
+}
+
+global() {
+	GLOBAL_SOURCE=/etc/resolv.conf-global
+	TARGET=/etc/resolv.conf
+
+	sudo rm ${TARGET}
+	sudo cp ${GLOBAL_SOURCE} ${TARGET}
+}
+
 ssh-create-key() {
 	ssh-keygen -t rsa -b 4096 -C "$1"
 }
