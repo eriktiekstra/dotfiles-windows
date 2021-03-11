@@ -44,3 +44,5 @@
 	tool = code
 [difftool "code"]
 	cmd = "code --wait --diff  "
+[pager]
+        branch = false

@@ -14,11 +14,6 @@ Different configuration files are located in this repository. Running `install.s
 - [Git for Windows](https://gitforwindows.org/) ?
 - ~~[Hyper](https://hyper.is/) (Terminal Emulator)~~
 - [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/get-started)
-  
-  Some settings needs to be set, it would be easiest to do this before installing. 
-  - Default profile should be set to the guid of the Ubuntu profile `"defaultProfile": "{ubuntu-guid}",`
-  - Set copy on select to true `"copyOnSelect": true,`
-  - Starting directory should be set to the Ubuntu user profile, f.e. `"startingDirectory": "\\\\wsl$\\Ubuntu-20.04\\home\\username"`
 - [VS Code](https://code.visualstudio.com/)
 
 ### Installation
@@ -34,8 +29,12 @@ $ cd ~/.dotfiles && sh /install.sh
 
 #### ~~Hyper~~
 
-- ~~Copy the contents of [hyper.js](./hyper/hyper.js) into the `.hyper.js` file in the installation folder. This folder is located under `~/Appdata/Roaming/Hyper`.~~
+- ~~Copy the contents of [hyper.js](./terminal/hyper.js) into the `.hyper.js` file in the installation folder. This folder is located under `~/Appdata/Roaming/Hyper`.~~
 - ~~Restart Hyper~~
+
+#### Windows Terminal
+
+- Copy the contents of [windows-terminal.json](./terminal/windows-terminal.json) into the `settings.json` file inside Windows Terminal. `ctrl+shift+,` is used to open the settings file.
 
 #### VS Code configuration
 
