@@ -34,6 +34,22 @@
               "splitMode": "duplicate"
           },
           "keys": "alt+shift+d"
+      },
+      {
+          "command": {
+              "action": "splitPane",
+              "split": "horizontal",
+              "splitMode": "duplicate"
+          },
+          "keys": "ctrl+shift+down"
+      },
+      {
+          "command": {
+              "action": "splitPane",
+              "split": "vertical",
+              "splitMode": "duplicate"
+          },
+          "keys": "ctrl+shift+right"
       }
   ],
   "copyFormatting": "none",
