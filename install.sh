@@ -1,3 +1,4 @@
+echo "🤞 Installing and configuring .dotfiles..."
 . $(pwd)/install/init.sh
 . $(pwd)/install/pull-latest.sh
 . $(pwd)/install/set-zsh-as-default.sh
@@ -8,4 +9,4 @@
 
 
 ln -sf $(pwd) ~/.dotfiles
-echo "✔ .dotfiles symlinked"
+echo "🎉🍻 .dotfiles installed and ready to use"

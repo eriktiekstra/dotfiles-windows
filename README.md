@@ -10,11 +10,11 @@ Different configuration files are located in this repository. Running `install.s
 
 ### Dependencies needed before running this script
 
-- Windows 10 with WSL activated and Ubuntu installed
-- [Git for Windows](https://gitforwindows.org/) ?
-- ~~[Hyper](https://hyper.is/) (Terminal Emulator)~~
-- [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/get-started)
-- [VS Code](https://code.visualstudio.com/)
+-   Windows 10 with WSL activated and Ubuntu installed
+-   [Git for Windows](https://gitforwindows.org/) ?
+-   ~~[Hyper](https://hyper.is/) (Terminal Emulator)~~
+-   [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/get-started)
+-   [VS Code](https://code.visualstudio.com/)
 
 ### Installation
 
@@ -29,12 +29,12 @@ $ cd ~/.dotfiles && sh /install.sh
 
 #### ~~Hyper~~
 
-- ~~Copy the contents of [hyper.js](./terminal/hyper.js) into the `.hyper.js` file in the installation folder. This folder is located under `~/Appdata/Roaming/Hyper`.~~
-- ~~Restart Hyper~~
+-   ~~Copy the contents of [hyper.js](./terminal/hyper.js) into the `.hyper.js` file in the installation folder. This folder is located under `~/Appdata/Roaming/Hyper`.~~
+-   ~~Restart Hyper~~
 
 #### Windows Terminal
 
-- Copy the contents of [windows-terminal.json](./terminal/windows-terminal.json) into the `settings.json` file inside Windows Terminal. `ctrl+shift+,` is used to open the settings file.
+-   Copy the contents of [windows-terminal.json](./terminal/windows-terminal.json) into the `settings.json` file inside Windows Terminal. `ctrl+shift+,` is used to open the settings file.
 
 #### VS Code configuration
 
@@ -46,18 +46,18 @@ To activate SSH usage, SSH keys needs to be created and configured. There is an 
 
 ### Keep it up to date
 
-When changes are made locally, make sure to push these changes to the remote repository. To get changes from remote, just run `git pull` this repo, and re-run `install.sh`.
+When changes are made locally, make sure to push these changes to the remote repository. To get changes from remote, just run `git pull` this repo, and re-run `sh install.sh`.
 
 ## Other applications
 
-- [Google Chrome](https://www.google.com/chrome/)
-- [Brave Browser](https://brave.com/)
-- [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
-- [Slack](https://slack.com/intl/en-se/downloads)
-- [Postman](https://www.postman.com/)
-- [Toggl](https://toggl.com/toggl-desktop/)
-- [Lastpass](https://lastpass.com/misc_download2.php)
-- [Franz](https://meetfranz.com/)
-- [Zeplin](https://zeplin.io/)
-- [Keybase](https://keybase.io/)
-- [Spotify](https://www.spotify.com/download)
+-   [Google Chrome](https://www.google.com/chrome/)
+-   [Brave Browser](https://brave.com/)
+-   [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
+-   [Slack](https://slack.com/intl/en-se/downloads)
+-   [Postman](https://www.postman.com/)
+-   [Toggl](https://toggl.com/toggl-desktop/)
+-   [Lastpass](https://lastpass.com/misc_download2.php)
+-   [Franz](https://meetfranz.com/)
+-   [Zeplin](https://zeplin.io/)
+-   [Keybase](https://keybase.io/)
+-   [Spotify](https://www.spotify.com/download)

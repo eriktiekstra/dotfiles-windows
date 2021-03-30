@@ -9,6 +9,8 @@ alias home='cd ~'
 alias sites='cd ~/Sites'
 alias dotfiles='cd ~/.dotfiles'
 
+alias upgrade-packages='sudo apt upgrade'
+
 # # Colors
 Color_Off='\033[0m'       # Text Reset
 Green='\033[0;32m'        # Green
