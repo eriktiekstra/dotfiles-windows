@@ -46,6 +46,12 @@ ssh-create-key() {
 	ssh-keygen -t rsa -b 4096 -C "$1"
 }
 
+ssh-copy-key() {
+	echo -e "${Cyan}Copying contents of id_rsa-${1}.pub to clipboard...${Color_Off}"
+	cat ~/.ssh/id_rsa-"$1".pub | clip.exe
+	echo -e "${Green}Contents copied to clipboard!${Color_Off}"
+}
+
 set-env() {
 	SOURCE=~/Sites/bramiljovalfiler/hosts-"$1"-egna_tillagg.txt
 	TARGET=/mnt/c/Windows/System32/drivers/etc/hosts
