@@ -13,6 +13,7 @@
         do = push origin --delete
         po = push -u origin HEAD
         undo = reset --soft HEAD^ # Undo your last commit, but don't throw away your changes
+        bu = push -u gitlab --all
 
 [color]
         diff = auto
