@@ -56,9 +56,9 @@ set-env() {
 	SOURCE=~/Sites/bramiljovalfiler/hosts-"$1"-egna_tillagg.txt
 	TARGET=/mnt/c/Windows/System32/drivers/etc/hosts
 
-	echo -e "${Cyan}Replacing hosts file...${Color_Off}"
+	echo -e "${Cyan}Replacing hosts file.....${Color_Off}"
 
-	if rm $TARGET && cp $SOURCE $TARGET && source $TARGET 2> /dev/null ; then
+	if sudo rm -f $TARGET && cp $SOURCE $TARGET && source $TARGET 2> /dev/null ; then
 		echo -e "${Green}You are now running the ${Yellow}${1}${Green} hosts file${Color_Off}"
 	else
 		echo -e "${Red}Replacing hosts file failed!${Color_Off}"
